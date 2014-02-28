@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$('.likeBtn').click(function(e){
 		e.preventDefault();
 		ga("send", "event", "like", "click");
-	})
+	});
 });
 
 /*
